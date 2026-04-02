@@ -10,7 +10,7 @@ export default function Nav() {
         <a href="#about" className="hover:text-neutral-100 transition-colors">About</a>
       </div>
       <a
-        href="mailto:you@email.com"
+        href="mailto:mrjackson@sethshows.com"
         className="text-sm font-medium px-4 py-2 rounded-lg border border-neutral-700 text-neutral-100 hover:border-violet-500 transition-colors"
       >
         Let's talk
