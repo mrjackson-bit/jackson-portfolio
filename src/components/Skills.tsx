@@ -19,17 +19,17 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 py-16 border-b border-neutral-100">
-      <p className="text-xs font-medium tracking-widest text-neutral-400 uppercase mb-8">
+    <section id="skills" className="px-6 py-16 border-b border-neutral-800">
+      <p className="text-xs font-medium tracking-widest text-neutral-500 uppercase mb-8">
         Skills
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {skills.map((s) => (
-          <div key={s.area} className="border border-neutral-200 rounded-lg p-4">
-            <p className="text-xs font-medium text-violet-600 mb-3">{s.area}</p>
+          <div key={s.area} className="border border-neutral-800 rounded-lg p-4 hover:border-neutral-600 transition-colors">
+            <p className="text-xs font-medium text-[#39ff14] mb-3">{s.area}</p>
             <ul className="space-y-1">
               {s.items.map((item) => (
-                <li key={item} className="text-xs text-neutral-500">
+                <li key={item} className="text-xs text-neutral-400">
                   {item}
                 </li>
               ))}

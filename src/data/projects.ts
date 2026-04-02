@@ -1,4 +1,15 @@
-export const projects = [
+export type Project = {
+  id: string;
+  title: string;
+  tag: string;
+  description: string;
+  stack: string[];
+  featured: boolean;
+  link: string;
+  github: string;
+};
+
+export const projects: Project[] = [
   {
     id: "organic-mechaniks",
     title: "Organic Mechaniks",
