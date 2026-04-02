@@ -1,0 +1,52 @@
+export default function Hero() {
+  return (
+    <section className="px-6 py-20 md:py-28 border-b border-neutral-100 max-w-4xl">
+      <p className="text-xs font-medium tracking-widest text-violet-600 uppercase mb-5">
+        Full-stack · UI/UX · Frontend · Freelance
+      </p>
+      <h1 className="text-4xl md:text-5xl font-medium text-neutral-900 leading-tight mb-3">
+        Hi, I'm Jackson.
+      </h1>
+      <h2 className="text-4xl md:text-5xl font-medium text-violet-500 leading-tight mb-6">
+        I build things people love to use.
+      </h2>
+      <p className="text-base text-neutral-500 leading-relaxed max-w-xl mb-8">
+        Developer and creative technologist with roots in music production,
+        film, and Apple tech. I design and build digital products that sit at
+        the intersection of form and function.
+      </p>
+      <div className="flex flex-wrap gap-3 mb-10">
+        <a
+          href="#work"
+          className="px-5 py-2.5 rounded-lg bg-violet-600 text-white text-sm font-medium hover:bg-violet-700 transition-colors"
+        >
+          View my work
+        </a>
+
+        <a
+          href="/resume.pdf"
+          className="px-5 py-2.5 rounded-lg border border-neutral-200 text-sm font-medium hover:bg-neutral-50 transition-colors"
+        >
+          Download resume
+        </a>
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {[
+          "React / Next.js",
+          "Node.js",
+          "UI design",
+          "AI integration",
+          "Audio production",
+          "Available for work",
+        ].map((tag) => (
+          <span
+            key={tag}
+            className="text-xs px-3 py-1.5 rounded-full border border-neutral-200 text-neutral-500"
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
+    </section>
+  );
+}
