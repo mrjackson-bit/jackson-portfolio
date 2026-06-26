@@ -81,7 +81,7 @@ function Nav() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                href: "mailto:you@email.com",
+                href: "mailto:mrjackson@sethshows.com",
                 className: "text-sm font-medium px-4 py-2 rounded-lg border border-neutral-700 text-neutral-100 hover:border-violet-500 transition-colors",
                 children: "Let's talk"
             }, void 0, false, {
@@ -642,7 +642,7 @@ function Footer() {
                 className: "flex gap-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "https://github.com",
+                        href: "https://github.com/mrjackson-bit",
                         className: "text-xs text-neutral-500 hover:text-[#39ff14] transition-colors",
                         children: "GitHub"
                     }, void 0, false, {
@@ -651,7 +651,7 @@ function Footer() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "https://linkedin.com",
+                        href: "https://www.linkedin.com/in/seth-jackson/",
                         className: "text-xs text-neutral-500 hover:text-[#39ff14] transition-colors",
                         children: "LinkedIn"
                     }, void 0, false, {
@@ -660,7 +660,7 @@ function Footer() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "mailto:you@email.com",
+                        href: "mrjackson@sethshows.com",
                         className: "text-xs text-neutral-500 hover:text-[#39ff14] transition-colors",
                         children: "Email"
                     }, void 0, false, {

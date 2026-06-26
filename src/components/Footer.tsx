@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="flex gap-5">
         <a href="https://github.com/mrjackson-bit" className="text-xs text-neutral-500 hover:text-[#39ff14] transition-colors">GitHub</a>
         <a href="https://www.linkedin.com/in/seth-jackson/" className="text-xs text-neutral-500 hover:text-[#39ff14] transition-colors">LinkedIn</a>
-        <a href="mrjackson@sethshows.com" className="text-xs text-neutral-500 hover:text-[#39ff14] transition-colors">Email</a>
+        <a href="mailto:mrjackson@sethshows.com" className="text-xs text-neutral-500 hover:text-[#39ff14] transition-colors">Email</a>
       </div>
     </footer>
   );
