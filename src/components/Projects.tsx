@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects } from "@/data/projects";
 import type { Project } from "@/data/projects";
 
@@ -10,10 +11,13 @@ function ProjectCard({ p }: { p: Project }) {
           : "border-neutral-800 hover:border-neutral-600"
       }`}
     >
-      <div className="w-full h-24 rounded-lg bg-neutral-900 flex items-center justify-center">
-        <div className="w-8 h-8 rounded-full bg-violet-900 flex items-center justify-center">
-          <div className="w-3 h-3 rounded-full bg-[#39ff14]" />
-        </div>
+      <div className="w-full h-40 rounded-lg overflow-hidden relative">
+        <Image
+          src={p.image}
+          alt={p.title}
+          fill
+          className="object-cover object-top"
+        />
       </div>
       <p className="text-xs font-medium text-[#39ff14]">{p.tag}</p>
       <h3 className="text-sm font-medium text-neutral-100">{p.title}</h3>

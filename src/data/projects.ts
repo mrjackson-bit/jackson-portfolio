@@ -7,11 +7,12 @@ export type Project = {
   featured: boolean;
   link: string;
   github: string;
+  image: string;
 };
 
 export const projects: Project[] = [
   {
-    id: "sync-brief-generator",
+    id: "sync-brief-generator", image: "/images/sync-brief.png",
     title: "Sync Brief Generator",
     tag: "AI Integration",
     description:
@@ -22,7 +23,7 @@ export const projects: Project[] = [
     github: "https://github.com/mrjackson-bit/sync-brief-generator",
   },
   {
-    id: "market-pulse",
+    id: "market-pulse", image: "/images/market-pulse.png",
     title: "Market Pulse",
     tag: "Data · Full-stack",
     description:
@@ -33,7 +34,7 @@ export const projects: Project[] = [
     github: "https://github.com/mrjackson-bit/market-pulse",
   },
   {
-    id: "shua-speaks",
+    id: "shua-speaks", image: "/images/shua-speaks.png",
     title: "Shua Speaks",
     tag: "Web · Freelance",
     description:
