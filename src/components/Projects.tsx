@@ -31,12 +31,12 @@ function ProjectCard({ p }: { p: Project }) {
         ))}
       </div>
       <div className="flex gap-3 pt-1">
-        <a href={p.link} className="text-xs text-violet-400 hover:text-violet-300 hover:underline">
-          Live demo →
-        </a>
-        <a href={p.github} className="text-xs text-neutral-500 hover:text-neutral-300 hover:underline">
-          GitHub
-        </a>
+         <a href={p.link} target="_blank" rel="noopener noreferrer" className="text-xs text-violet-400 hover:text-violet-300 hover:underline">
+           Live demo →
+         </a>
+         <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-xs text-neutral-500 hover:text-neutral-300 hover:underline">
+           GitHub
+         </a>
       </div>
     </div>
   );

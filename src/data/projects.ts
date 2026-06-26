@@ -18,7 +18,7 @@ export const projects: Project[] = [
       "Music supervisors describe a scene; the app returns a detailed creative brief with mood, tempo, and instrumentation recommendations. Powered by the Claude API.",
     stack: ["Next.js", "Claude API", "Tailwind"],
     featured: true,
-    link: "https://jackson-portfolio-bgrf6x0bc-mrjackson-bits-projects.vercel.app/",
+    link: "https://sync-brief-generator.vercel.app/",
     github: "https://github.com/mrjackson-bit/sync-brief-generator",
   },
   {
