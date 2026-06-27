@@ -5,7 +5,7 @@ export default function Hero() {
         Full-stack · UI/UX · Frontend · Freelance
       </p>
       <h1 className="text-4xl md:text-5xl font-medium text-neutral-100 leading-tight mb-3">
-        Hi, my name is Seth Jackson.
+        Hello, my name is Seth Jackson.
       </h1>
       <h2 className="text-4xl md:text-5xl font-medium text-violet-400 leading-tight mb-6">
         I build things people love to use.

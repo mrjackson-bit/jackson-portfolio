@@ -11,9 +11,8 @@ export default function Nav() {
       </div>
       <a
         href="mailto:mrjackson@sethshows.com"
-        className="text-sm font-medium px-4 py-2 rounded-lg border border-neutral-700 text-neutral-100 hover:border-violet-500 transition-colors"
-      >
-        Let's talk
+        className="text-sm font-medium px-4 py-2 rounded-lg border border-neutral-700 text-neutral-100 hover:border-violet-500 transition-colors">
+        Let&apos;s talk
       </a>
     </nav>
   );
