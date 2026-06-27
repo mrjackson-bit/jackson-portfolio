@@ -23,7 +23,7 @@ export default function Hero() {
           View my work
         </a>
         <a
-          href="/resume.pdf"
+          href="public/Seth_Jackson_Resume.pdf"
           className="px-5 py-2.5 rounded-lg border border-neutral-700 text-neutral-100 text-sm font-medium hover:border-[#39ff14] hover:text-[#39ff14] transition-colors"
         >
           Download resume
