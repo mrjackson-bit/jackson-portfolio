@@ -2,7 +2,7 @@ export default function Nav() {
   return (
     <nav className="flex items-center justify-between px-6 py-4 border-b border-neutral-800 sticky top-0 bg-[#0a0a0a]/90 backdrop-blur-sm z-50">
       <span className="font-medium text-neutral-100 tracking-tight">
-        Jackson
+        Seth Jackson
       </span>
       <div className="hidden sm:flex items-center gap-6 text-sm text-neutral-400">
         <a href="#work" className="hover:text-neutral-100 transition-colors">Work</a>
